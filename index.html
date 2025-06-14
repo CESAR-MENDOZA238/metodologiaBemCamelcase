@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METODOLOGIA BEM Y CAMEL CASE</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="titulo">
+        ESTILOS_CSS    </h1>
+        <div class="infor">
+            <h1>METODOLOGIA_BEM_Y_CAMEL_CASE</h1>
+        </div>
+        <div class="info-section">
+            <h2 class="info-section__title">Que es BEM?</h2>
+            <p><strong>BEM</strong>, <strong>(Block)</strong>, <strong>(Element)</strong>, <strong>(Modifier)</strong></p>
+            <p>La metodología BEM, que significa "Bloque, Elemento, Modificador" (en inglés, Block, Element, Modifier), es una técnica popular en el desarrollo de interfaces web y en la organización de CSS. Su objetivo principal es crear código más claro, modular y fácil de mantener, especialmente en proyectos grandes.
+
+            En BEM, los bloques representan componentes independientes, los elementos son partes de esos bloques, y los modificadores indican variaciones o estados de los bloques o elementos. Por ejemplo, un bloque podría ser una tarjeta, un elemento sería el título dentro de esa tarjeta, y un modificador podría ser una versión resaltada de la tarjeta.
+
+            Esta metodología ayuda a evitar conflictos en los estilos, facilita la reutilización de componentes y mejora la colaboración en equipos de desarrollo. Es muy valorada por su sencillez y estructura clara.</p>
+
+            <h3>Conceptos clave de BEM:</h3>
+            <ul>
+                <li><strong>Block:</strong> Una entidad, independiente y autónoma. <span class="example-box"><code>.button</code>, <code>.header</code>, <code>.menu</code></span></li>
+                <br>
+                <li><strong>Element:</strong> Una parte de un bloque, semánticamente atado a su bloque. <span class="example-box"><code>.button__icon</code>, <code>.header__logo</code>, <code>.menu__item</code></span></li>
+                <br>
+                <li><strong>Modifier:</strong> Una bandera en un bloque o elemento que cambia su apariencia o comportamiento. <span class="example-box"><code>.button--large</code>, <code>.button--disabled</code>, <code>.menu__item--active</code></span></li>
+                <br>
+            </ul>
+            <p>Usando BEM hace tu CSS predecible y más fácil de gestionar, especialmente en proyectos grandes.</p>
+        </div>
+
+        <div class="info-section info-section--highlight"> <h2 class="info-section__title">Que es Camel Case?</h2>
+            <p><strong>Camel Case</strong> Es una convención de nomenclatura donde la primera letra de cada palabra en una frase compuesta (excepto la primera palabra) se escribe con mayúscula y no hay espacios entre las palabras.</p>
+            <p>Recibe su nombre porque las letras mayúsculas se "encorvan" como las jorobas de un camello.</p>
+
+            <h3>Ejemplos de Camel Case:</h3>
+            <ul>
+                <li>Nombres de variables: <span class="example-box"><code>firstName</code></span></li>
+                <br>
+                <li>Nombres de funciones: <span class="example-box"><code>calculateTotalPrice()</code></span></li>
+                <br>
+                <li>Nombres de propiedades: <span class="example-box"><code>backgroundColor</code></span></li>
+                <br>
+            </ul>
+            <p>Camel Case se adopta ampliamente en lenguajes de programación como JavaScript, Java y C# por su legibilidad y concisión, especialmente para identificadores.</p>
+        </div>
+
+        <div class="image-section">
+            <h2>Visualización de convenciones de código</h2>
+            <p>Aquí hay una imagen ilustrativa que puede ayudar a visualizar diferentes convenciones de codificación, incluidos algunos conceptos relacionados con la estructura.</p>
+            <img src="imagenes/BEM.jpg" alt="Ilustración de las convenciones de codificación">
+            <p><em>Esta imagen representa la metodologia BEM.</em></p>
+        </div>
+
+        <div class="multimedia-section">
+            <h2>Más información con multimedia</h2>
+            <p>Aquí hay un breve video que podría explicar mejor las convenciones de nomenclatura en el desarrollo web.</p>
+            <video controls>
+                <source src="audio/metodologiaBemCamelcase (online-video-cutter.com).mp4" type="video/mp4">
+                Su navegador no soporta la etiqueta de vídeo
+.
+            </video>
+                    
+        </div>
+        <h2 class="h2">TABLA COMPARATIVA CAMEL CASE Y BEM</h2>
+            <body>
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Características</th>
+                            <th>camelCase</th>
+                            <th>BEM</th>
+                        </tr>
+
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>Propósito</td>
+                                <td>Nomenclatura de variables, funciones, etc.</td>
+                                <td>Organización de la estructura CSS</td>     
+                            </tr>
+                            <tr>
+                                <td>Uso principal</td>
+                                <td>Lenguajes de Programación 
+                                    (Java Scrip, Python)</td>
+                                <td>CSS</td>
+                            </tr>
+                            <tr>
+                                <td>Ejemplo</td>
+                                <td>userName, calculateTotal, isLoggedIn</td>
+                                <td>.block, .block_element, .block-modifier </td>
+
+                            </tr>
+                            <tr>
+                                <td>Formato</td>
+                                <td>Primera letra de la primera palabra en minúscula, primera letra de cada palabra siguiente en mayúscula.</td>
+                                <td>Componentes (bloques), elementos (dentro de un componente) y modificadores (opciones para el componente)</td>
+                            </tr>
+                            <tr>
+                                <td>Beneficios</td>
+                                <td>Facilita la lectura y comprensión del código.</td>
+                                <td>Mejora la organización, mantenibilidad y escalabilidad de los estilos CSS.</td>
+                            </tr>
+                                <td>Desventajas</td>
+                                <td>Puede resultar menos claro en algunos contextos.</td>
+                                <td>Requiere un aprendizaje inicial.</td>
+
+
+                        </tbody>
+
+
+
+            </table>
+        
+        </body>
+            
+            
+    </div>
+</body>
+</html>
+</html>
